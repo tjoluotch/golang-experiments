@@ -14,7 +14,7 @@ type Person struct {
  */
 
  // Type that can describe itself as a string
- // changes the type of print message
+ // changes the type of print message : uncomment below to see
 
 //func (p Person) String() string {
 //	return fmt.Sprintf("%v (%v years)", p.Name, p.Age)

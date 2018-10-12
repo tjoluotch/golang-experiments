@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fc88914-83c5-4652-bf75-28bf272c8115" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Stringer/stringer.go" beforeDir="false" afterPath="$PROJECT_DIR$/Stringer/stringer.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gowiki/wiki" beforeDir="false" afterPath="$PROJECT_DIR$/gowiki/wiki" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gowiki/wiki.go" beforeDir="false" afterPath="$PROJECT_DIR$/gowiki/wiki.go" afterDir="false" />
     </list>
@@ -39,12 +40,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="6199" />
+          <entry key="go" value="6224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="6199" />
+          <entry key="Go" value="6224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -83,7 +84,7 @@
         <entry file="file://$PROJECT_DIR$/Stringer/stringer.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+              <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -458,7 +459,7 @@
     <entry file="file://$PROJECT_DIR$/Stringer/stringer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <caret line="16" column="62" selection-start-line="16" selection-start-column="62" selection-end-line="16" selection-end-column="62" />
         </state>
       </provider>
     </entry>
