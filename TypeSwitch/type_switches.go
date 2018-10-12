@@ -3,7 +3,9 @@ package main
 import "fmt"
 
 func do(i interface{}) {
+	// expression in type switch is evaluating the interface type
 	switch v := i.(type) {
+	// cases are testing different types
 	case int:
 		fmt.Printf("Twice %v is %v\n", v, v*2)
 	case string:
