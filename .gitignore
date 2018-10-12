@@ -1,0 +1,5 @@
+#Files to be ignored #
+#########
+gowiki/
+mongo-server/
+Personal-website-server/
