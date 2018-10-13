@@ -11,7 +11,8 @@ type IpAddr [4]byte
 	TODO: For instance, IPAddr{1, 2, 3, 4} should print as "1.2.3.4".
  */
 
- // pointer to ipAddr as the receiver
+ //pointer receiver
+ // open the box to do something with the value at the particular address being pointed at, then place that value right back in that same address
 func(ipAddr *IpAddr) String() string {
 	return fmt.Sprintf("%v.%v.%v.%v", ipAddr[0], ipAddr[1], ipAddr[2], ipAddr[3])
 }
@@ -29,6 +30,7 @@ func(ipAddr *IpAddr) String() string {
 
 	 // loop through the entire map
  	for name, ip := range hosts{
+ 		// no change because name and ip are new memory locations which store
  		fmt.Printf("%v: %v\n", name, ip)
 	}
 
@@ -37,7 +39,8 @@ func(ipAddr *IpAddr) String() string {
 	 fmt.Printf("\n")
 
  	for name, ip := range hosts {
- 		// & indicates we pass the address of local variables name and ip
+ 		// memory location name contains a pointer to another memory location which holds the value
+ 		//memory location ip contains a pointer to another memory location which holds the value
  		fmt.Printf("%v: %v\n", &name, &ip)
 	}
 

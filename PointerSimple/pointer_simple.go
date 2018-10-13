@@ -20,5 +20,5 @@ func main() {
 	//												and store this value back in the memory location stored in b- which is the memory location of a.
 	*b++
 	fmt.Print(a)
-	
+
 }
